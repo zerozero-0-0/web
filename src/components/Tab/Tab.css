@@ -1,0 +1,44 @@
+.tab {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    position: fixed;
+    opacity: 95%;
+    z-index: 3;
+    align-items: flex-start;
+    width: auto;
+  }
+  
+  .tab button {
+    transform: translateX(-110%);
+    background-color: #696969;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .tab button.open {
+    transform: rotate(180deg) translateX(-310%);
+  }
+  
+  .tab .contents.open {
+    border-radius: 10px;
+    padding-top: 40%;
+    text-align: left;
+    background-color: #696969;
+    opacity: 100%;
+    color: #ffffff;
+    transform: translateX(-32%);
+    padding-right: 2vh;
+    padding-bottom: 100%;
+  }
+  
+  .tab .contents img {
+    margin-right: 2vh;
+  }
+  
+  .tab tr.open {
+    margin-bottom: 10%;
+  }
