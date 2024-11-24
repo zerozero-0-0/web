@@ -14,7 +14,7 @@
   
   .tab button {
     transform: translateX(-110%);
-    background-color: #696969;
+    background-color: #808080;
     border: none;
     border-radius: 10px;
   }
@@ -27,7 +27,7 @@
     border-radius: 10px;
     padding-top: 40%;
     text-align: left;
-    background-color: #696969;
+    background-color: #808080;
     opacity: 100%;
     color: #ffffff;
     transform: translateX(-32%);
@@ -41,4 +41,34 @@
   
   .tab tr.open {
     margin-bottom: 10%;
+  }
+
+  @media (max-width : 800px) {
+
+    .tab button {
+      transform: translateX(0%) translateY(-160%);
+      border: none;
+      background-color: #000000;
+      border-radius: 10px;
+    }  
+
+    .tab button.open {
+      transform: translateX(0%) translateY(-160%);
+    }  
+
+    .tab .contents.open {
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      padding-top: 40%;
+      text-align: left;
+      opacity: 100%;
+      color: #ffffff;
+      background-color: #000000;
+      opacity: 90%;
+      transform: translateX(-32%);
+      padding-right: 2vh;
+      padding-bottom: 100%;
+    }
   }
