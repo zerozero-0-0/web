@@ -1,97 +1,95 @@
 /* all setting */
 .introduction {
-    text-align: center;
+  text-align: center;
 }
 
 /*-----メインテキストボックス------*/
 .contents {
-    text-align: center;
-    width: 95%;
-    columns: 2;
-    display: flex;
-    margin: 0 auto;
+  text-align: center;
+  width: 95%;
+  columns: 2;
+  display: flex;
+  margin: 0 auto;
 }
 
 /* ----メインテキストボックスここまで----*/
 
-
 /*-----メインテキスト-----*/
 .textBox {
-    width: 100%;
-    height: 100%;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
-
 .su {
-    text-decoration-line: none;
-    color: green;
+  text-decoration-line: none;
+  color: green;
 }
 
 .atcoder {
-    text-decoration-line: none;
-    color: chartreuse;
-    font-size: 20px;
+  text-decoration-line: none;
+  color: chartreuse;
+  font-size: 20px;
 }
 
 ul {
-    text-align: left;
+  text-align: left;
 }
 
 li {
-    list-style: none;   
-    text-align: center; 
+  list-style: none;
+  text-align: center;
 }
 
 /*-----メインテキストここまで-----*/
 
 /*---ここから言語紹介---*/
 .container {
-    max-width: 400px;
-    width: 90%;
-    margin: 0 auto;
-    align-items: start;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    margin-bottom: 2em;
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  align-items: start;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin-bottom: 2em;
 }
 
 .column {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 @media (max-width: 850px) {
-    .column {
-        display: grid;
-    }
+  .column {
+    display: grid;
+  }
 }
 
 .languageName {
-    font-family: "Rowdies", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    padding-top: 0.2em;
-    font-size: 18px;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 0.2em;
+  font-size: 18px;
 }
 
 .html {
-    border: 0.2em solid #ffa500;
-    color: #ffa500;
+  border: 0.2em solid #ffa500;
+  color: #ffa500;
 }
 .css {
-    border: 0.2em solid #00bfff;
-    color: #00bfff;
+  border: 0.2em solid #00bfff;
+  color: #00bfff;
 }
 .javascript {
-    border: 0.2em solid #ffd700;
-    color: #ffd700;
+  border: 0.2em solid #ffd700;
+  color: #ffd700;
 }
-.cpp{
-    border: 0.2em solid #0000ff;
-    color: #0000ff;
+.cpp {
+  border: 0.2em solid #0000ff;
+  color: #0000ff;
 }
 .languageContent {
-    font-size: 16px;
-    color: #000000;
+  font-size: 16px;
+  color: #000000;
 }
