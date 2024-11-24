@@ -33,8 +33,3 @@ const Header = () => {
 };
 
 export default Header;
-
-/*
-    menuTab
-    PageTop
-*/

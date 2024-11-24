@@ -13,7 +13,7 @@
   }
   
   .tab button {
-    transform: translateX(-110%);
+    transform: translateX(-120%);
     background-color: #808080;
     border: none;
     border-radius: 10px;
@@ -47,6 +47,8 @@
 
     .tab button {
       transform: translateX(0%) translateY(-160%);
+      width: auto;
+      height: 100%;
       border: none;
       background-color: #000000;
       border-radius: 10px;

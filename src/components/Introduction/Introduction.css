@@ -6,7 +6,6 @@
 /*-----メインテキストボックス------*/
 .contents {
   text-align: center;
-  width: 95%;
   columns: 2;
   display: flex;
   margin: 0 auto;
@@ -59,7 +58,7 @@ li {
   margin: 0 auto;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .column {
     display: grid;
   }
