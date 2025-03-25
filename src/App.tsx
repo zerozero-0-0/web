@@ -1,8 +1,10 @@
 import { Header } from "./components/Header/Header";
 import { Introduction } from "./components/Introduction/Introduction";
-import { History } from "./components/About/About";
+import { About } from "./components/About/About";
 import { Projects } from "./components/Develop/Projects";
 import { NotFound } from "./components/NotFound/NotFound";
+import { Comp_Prog } from "./components/CompetitiveProgramming/Comp_Prog";
+import { Access } from "./components/Access/Access";
 import {
   BrowserRouter,
   Route,
@@ -13,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Introduction />
-      <History />
+      <About />
     </>
   )
 }
@@ -25,7 +27,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/develop" element={<Projects />} />
-        <Route element={<NotFound />} />
+        <Route path="/comp_prog" element={<Comp_Prog />} />
+        <Route path="/access" element={<Access />} ></Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

@@ -20,3 +20,8 @@
     color: #000000;
     text-decoration: underline;
 }
+
+.header span:hover {
+    opacity: 80%;
+    color: #0000ff;
+}

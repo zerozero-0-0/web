@@ -1,0 +1,9 @@
+.notfound {
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.notfound__content {
+    margin: 0 auto;
+}

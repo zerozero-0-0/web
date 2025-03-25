@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./Header.css";
 
 export const Header = () => {
@@ -16,7 +17,14 @@ export const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/"></a>
+            <Link to="/comp_prog">
+              <span>競プロ</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/access">
+              <span>アクセス</span>
+            </Link>
           </li>
         </ul>
       </div>
