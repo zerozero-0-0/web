@@ -1,0 +1,14 @@
+img {
+    height: 3rem;
+    width: auto;
+}
+
+.description {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.description__content {
+    margin: 0 auto;
+}

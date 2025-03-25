@@ -1,0 +1,35 @@
+.introduction {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #000;
+}
+
+.introduction table {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.introduction a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.introduction a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+.introduction th {
+    width: 15%;
+    text-align: left;
+    color: orange;
+}
+
+.introduction td {
+    text-align: left;
+}
