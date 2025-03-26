@@ -7,14 +7,14 @@ export const Header = () => {
       <div className="header__inner">
         <ul className="header__contents">
           <li>
-            <a href="/">
+            <Link to="/">
               <span>ホーム</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/develop">
+            <Link to="/projects">
               <span>開発録</span>
-            </a>
+            </Link>
           </li>
           <li>
             <Link to="/comp_prog">

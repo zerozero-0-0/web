@@ -36,7 +36,7 @@ export const Access = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <img src="/AtCoder_logo.png" alt="AtCoder" />
+              <img src="/logo_transparent.png" alt="AtCoder" />
             </a>
           </li>
         </ul>

@@ -63,7 +63,7 @@ export const Hobby = () => {
                target="_blank"
                rel="noreferrer noopener"
             >
-                雀魂 
+                "雀魂" 
             </a>
         )
     }
